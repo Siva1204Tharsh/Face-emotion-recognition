@@ -1,7 +1,7 @@
 from facial_emotion_recognition import EmotionRecognition
 import cv2
 
-er=EmotionRecognition(device='cpu')
+er=EmotionRecognition(device='cpu') #device='cpu' or device='gpu'
 
 cam=cv2.VideoCapture(0)
 
